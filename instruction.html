@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="my1style.css" />
+   
+
+</head>
+<body class="body2">
+    <div class="background2">
+        <div class="information-window">
+          <img src="Run (4).png" class="player2" />
+          <img src="mission 2/Jump (5).png" class="player3" />
+          <img src="mission 3/Dead (7).png" class="player4"/>
+
+
+            <h2 class="p1">HERE ARE SOME INSTRUCTIONS</h2>
+            <div>
+              <p class="gg">PRESS ENTER TO  (run)</p>
+              <br/><br/><br/><br/>
+              <p class="gg">PRESS SPACE TO (jump)</p>
+              <p class="gg"></p>
+            </div>
+
+            
+            <button class="btn4" onclick="back();">BACK</button>
+            
+          </div>
+          <style>
+            .information-window {
+             /* Existing styles... */
+             position: fixed;
+             left: 50%;
+             top: 50%;
+             transform: translate(-50%, -50%);
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+           }
+           
+           
+           
+           .information-window h2 {
+             font-size: 45px;
+             margin-bottom: 10px;
+             
+             background-color: #f2f2f2;
+            font-family: Copperplate;
+             
+             color: #291ca3;
+             animation-fill-mode: forwards;
+           }
+           
+           .information-window p {
+             font-size: 40px;
+             margin-bottom: 20px;
+             font-family: zapfino;
+             flood-opacity: 0fr;
+           }
+           
+           .information-window button {
+             background-color: #b2420a;
+             color: #ffffff;
+             padding: 10px 20px;
+             border: none;
+             border-radius: 5px;
+             font-size: 16px;
+             cursor: pointer;
+           }
+           
+           .information-window button:hover {
+             background-color: #333333;
+           }
+           
+                     </style>
+    </div>
+    <script src="my1script.js"></script>
+</body>
+</html>
